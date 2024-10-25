@@ -1,7 +1,6 @@
 import re
 import math
 from Crypto.Util.number import bytes_to_long
-pt=bytes_to_long(b"DVC{Hello!}")
 
 grammar=open("grammar.txt","r").read()
 
@@ -16,10 +15,9 @@ for R in allRotors:
     maxHiddable*=len(words)
     rotorsCount.append(len(words))
 
-print("maxHiddable",math.floor(math.log(maxHiddable)/math.log(256)),"chars")
-print("is hiddable", maxHiddable>pt)
-# print("rotorsCount",rotorsCount)
-
+maxChar=math.floor(math.log(maxHiddable)/math.log(256))
+pt=bytes_to_long(input(f"Text to hide (Max {maxChar} chars ) : ").encode())
+assert maxHiddable>pt, "Text to hide is too long"
 
 def intToArray(pt, rotorsCount):
     rotorsCount=rotorsCount[::-1]
@@ -32,7 +30,6 @@ def intToArray(pt, rotorsCount):
     return rotorsIndex[::-1]
 
 rotorsIndex=intToArray(pt,rotorsCount)
-# print("rotorsIndex",rotorsIndex)
 
 for i in range(len(rotorsWords)):
     begin=grammar.split("{")[0]

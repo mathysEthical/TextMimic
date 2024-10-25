@@ -26,10 +26,6 @@ def arrayToInt(theArray, rotorsCount):
         factor*=rotorsCount[i]
     return total
 
-# print("grammar",grammar)
-# print("encoded",encoded)
-# print("rotorsWords",rotorsWords)
-
 def getRotorIndex(encoded,actualGrammar,rotorWords):
     toTest="{".join(actualGrammar.split("{")[:2])
     for i in range(len(rotorWords)):
