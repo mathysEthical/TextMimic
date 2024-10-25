@@ -1,0 +1,11 @@
+{Hello|Good morning|morning} {John|Dany|Jeff|Lara}, today I'm {3|4|5}{0|1|2|3|4|5|6|7|8|9}{.|!| !} 
+I {contact|reach to} you because in {2|3|4|5|6|7|8|9|two|one|four|five|six|seven|height|nine} {days|weeks} we will have a {discord|zoom|teams|Discord|Zoom|Team} meeting to plan the {event|party|celebration|dinner|ceremony|lunch}.
+{Henry|Marry|Mat|Paula|Josh|Bella|Chris|Paul} thinks you should help {us|the team} with it. Do you {accept|agree|want} ?
+
+The {program|goal} is to {organize|plan|prepare} the {ceremony|event|party|lunch|celebration}{.|!}
+We have a {total,amount,budget} of {1|2|3|4|5|6|7|8|9}{,| }{1|2|3|4|5|6|7|8|9}{1|2|3|4|5|6|7|8|9}{1|2|3|4|5|6|7|8|9}{ |}{$|€} to {organize|plan|prepare} then {ceremony|event|party|lunch|celebration}{.|!}
+
+{Best regards|XXX|Take Care|See you|Bye|Bye bye},
+{Anna|Bart|Jeff|Loris}
+
+{tel|phone}: +{0|1|2|3|4|5|6|7|8|9}{0|1|2|3|4|5|6|7|8|9} {0|1|2|3|4|5|6|7|8|9}{0|1|2|3|4|5|6|7|8|9} {0|1|2|3|4|5|6|7|8|9}{0|1|2|3|4|5|6|7|8|9} {0|1|2|3|4|5|6|7|8|9}{0|1|2|3|4|5|6|7|8|9} {0|1|2|3|4|5|6|7|8|9}{0|1|2|3|4|5|6|7|8|9} {0|1|2|3|4|5|6|7|8|9}{0|1|2|3|4|5|6|7|8|9}
