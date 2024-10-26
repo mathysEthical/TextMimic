@@ -3,8 +3,6 @@ import re
 import math
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
-
-# Instantiate the parser
 parser = argparse.ArgumentParser(description='TextMimic is a tool to hide text using custom templates')
 
 parser.add_argument('encodedFile', type=str, help='Encoded file path exemple encoded/cipher.txt')
@@ -65,10 +63,15 @@ def arrayToInt(theArray, rotorsCount):
 
 def getRotorIndex(encoded,actualGrammar,rotorWords):
     toTest="{".join(actualGrammar.split("{")[:2])
+    longest=0
+    toReturn=0
     for i in range(len(rotorWords)):
         word=rotorWords[i]
         if(encoded.startswith(re.sub(r"{.*?}", word, toTest,1,re.MULTILINE))):
-            return i
+            if(len(word)>longest):
+                longest=len(word)
+                toReturn=i
+    return toReturn
 
 def intToArray(pt, rotorsCount):
     rotorsCount=rotorsCount[::-1]

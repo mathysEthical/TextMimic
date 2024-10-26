@@ -13,7 +13,7 @@ git clone https://github.com/mathysEthical/TextMimic.git
 python3 mimic.py -h
 usage: mimic.py [-h] encodedFile template mode
 
-TextMimic is a tool to hide text using custom templates
+TextMimic is a tool to hide messages using custom templates
 
 positional arguments:
   encodedFile  Encoded file path exemple encoded/cipher.txt
